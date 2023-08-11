@@ -12,8 +12,8 @@ import msvcrt
 from kasa import SmartBulb
 
 
-lower = SmartBulb("192.168.1.176") #kasa bottom ip 
-upper = SmartBulb("192.168.1.177") #kasa top ip
+lower = SmartBulb("IP address of bottom light") #kasa bottom ip 
+upper = SmartBulb("Ip address of upper") #kasa top ip
 #(0,0,100) default color scheme
 #loop.run_until_complete(upper.update())
 #loop.run_until_complete(lower.update())
